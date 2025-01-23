@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     $full_code = $matches[1];
-    $remaining_number = $matches[2];
+    // $remaining_number = $matches[2];
 
     $countries = [
         '44' => 'Англия',
